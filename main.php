@@ -1,6 +1,4 @@
 <?php
-//Your Settings can be read here: settings::read('myArray/settingName') = $settingValue;
-//Your Settings can be saved here: settings::set('myArray/settingName',$settingValue,$overwrite = true/false);
 class fizzbuzz{
     public static function command($line):void{
         $max = 100;
@@ -18,5 +16,4 @@ class fizzbuzz{
             echo $string . "\n";
         }
     }
-    //public static function init():void{}//Run at startup
 }
